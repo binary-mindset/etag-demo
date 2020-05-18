@@ -6,7 +6,7 @@ This project contains a very basic example of how to implement the ETag in Sprin
 
 The class KarateRunnerTest takes care of running the features and generating Cucumber reports with the results
 
-```
+```java
 @Bean
 public ShallowEtagHeaderFilter shallowEtagHeaderFilter() {
     return new ShallowEtagHeaderFilter();
